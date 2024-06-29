@@ -1,0 +1,118 @@
+.bg{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url('gym.jpg');
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.box{
+    height: 500px;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+    box-shadow: 0px 0px 10px 4px #3b3a35;
+    background-color: #88877ccb;
+    height: 400px;
+    width: 350px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.box1 input{
+    border: none;
+    outline: none;
+    width: 80%;
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 1em;
+    border-radius: 10px;
+    height: 10px;
+    margin: 0px 0px 0px 5px;
+    cursor: pointer;
+}
+.box1 input:hover{
+    transform: scale(1.02);
+}
+.box1 h1{
+    padding: 5px 5px 10px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1 h2{
+    padding: 10px 5px 10px 5px;
+}
+.box1 button{
+    border: none;
+    outline: none;
+    background-color: #555046;
+    padding: 5px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    width: 30%;
+    border: 1px solid black;
+    margin: 20px 10px 10px 10px;
+    cursor: pointer;
+    
+}
+button:hover{
+    transform: scale(1.1);
+}
+
+.box2{
+    margin: 10px;
+    padding: 5px;
+}
+.box2 img{
+    height: 400px;
+}
+.answer1{
+    display: flex;
+    position: relative;
+    top: 5px;
+    justify-content: center;
+    font-size: 18px;
+}
+.answer2{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 15px;
+    color: rgb(36, 255, 2);
+}
+.iimg{
+    animation: rotate 4s infinite;
+}
+@keyframes rotate {
+    0% {
+        transform: rotatey(0deg);
+    }
+    25% {
+        transform: rotatey(30deg);
+    }
+    50% {
+        transform: rotatey(0deg);
+    }
+    75% {
+        transform: rotatey(-30deg);
+    }
+    100% {
+        transform: rotatey(0deg);
+    }
+}
+.chart{
+    text-decoration: none;
+    position: relative;
+    left: 200px;
+    top: 25px;
+}
+.link{
+    text-decoration: none;
+}
